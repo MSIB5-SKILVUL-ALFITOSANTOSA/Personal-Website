@@ -1,3 +1,9 @@
 module.exports = {
-  content: ["./node_modules/flowbite/**/*.js"],
+  theme: {
+    extends: {
+      padding: {
+        "1/2": "50%",
+      },
+    },
+  },
 };
